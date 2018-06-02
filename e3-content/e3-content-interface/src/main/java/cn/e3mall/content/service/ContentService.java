@@ -9,7 +9,7 @@ import java.util.List;
 public interface ContentService {
     E3Result addContent(TbContent content);
 
-    List<TbContent> selectContentByCategoryId(Long category);
+    List<TbContent> selectContentListByCategoryId(Long category);
 
     EasyUIDataGridResult getContentListByCategoryId(Integer page, Integer rows, Long categoryId);
 }

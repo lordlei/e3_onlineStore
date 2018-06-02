@@ -37,7 +37,7 @@
 		相当:一个<bean 有id  <action 中注入 bean 引用ref与id相同,如果使用autowrid则是根据类型注入
 		与id无关
 	-->
-	<dubbo:reference interface="cn.e3mall.content.service.Co	ntentService" id="contentService" />
+	<dubbo:reference interface="cn.e3mall.content.service.ContentService" id="contentService" />
 	<!--<dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" />-->
 
 </beans>
