@@ -17,6 +17,8 @@
 
 	<!-- 注解驱动 包含 处理器映射器,处理器适配器-->
 	<mvc:annotation-driven />
+<!--全局异常捕获-->
+	<bean class="cn.e3mall.search.excption.GlobalExceptionReslover"/>
 
 	<!-- 视图解释器 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -37,6 +39,6 @@
 		与id无关
 	-->
 	<dubbo:reference interface="cn.e3mall.content.service.ContentService" id="contentService" />
-	<!--<dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" />-->
+	<dubbo:reference interface="cn.e3mall.search.service.SearchService" id="itemCatService" />
 
 </beans>
