@@ -17,7 +17,7 @@
 
 	<!-- 注解驱动 包含 处理器映射器,处理器适配器-->
 	<mvc:annotation-driven />
-
+<!--全局异常捕获-->
 	<bean class="cn.e3mall.search.excption.GlobalExceptionReslover"/>
 
 	<!-- 视图解释器 -->

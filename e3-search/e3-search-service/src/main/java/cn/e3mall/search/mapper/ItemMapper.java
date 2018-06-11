@@ -8,4 +8,7 @@ public interface ItemMapper {
 
     List<SearchItem> getItemList();
 
+//    通过Id查找商品
+    SearchItem getItemById(Long id);
+
 }

@@ -4,11 +4,14 @@ import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.common.pojo.EasyUITreeNode;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.pojo.TbItem;
+import cn.e3mall.pojo.TbItemDesc;
 
 import java.util.List;
 
 public interface ItemService {
     TbItem getItemById(Long itemId);
+
+    TbItemDesc getItemDescById(Long itemId);
 
     EasyUIDataGridResult getItemList(int page,int rows);
 
