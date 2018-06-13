@@ -41,7 +41,7 @@
 	<dubbo:application name="e3-manager-web"/>
 	<dubbo:registry protocol="zookeeper"
 					address="192.168.25.128:2181"/>
-	<!--虽然没有此接口的实现方法,但是需要定义此接口 所以我们再e3-manager-web引用了interface的jar包(
+	<!--虽然没有此接口的实现方法,但是需要定义此接口 所以我们在e3-manager-web引用了interface的jar包(
 	如果没有就需要将interface中的接口全部复制过来)
 		id 为itemService,这样在controller层中注入了
 		此id将对应Controller中的注入的名,根据id或类型相同将下面的注入

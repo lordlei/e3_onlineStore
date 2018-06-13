@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:57:28 +0800] "GET /search.html?keyword=123 HTTP/1.1" 200 18817 http-bio-8085-exec-1 3592
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:57:29 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-2 2
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:57:42 +0800] "GET /search.html?keyword=123 HTTP/1.1" 200 18817 http-bio-8085-exec-3 2760
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:57:54 +0800] "GET /search.html?keyword=123 HTTP/1.1" 200 18817 http-bio-8085-exec-9 467
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:58:05 +0800] "GET /search.html?keyword=%E6%80%A5 HTTP/1.1" 200 21288 http-bio-8085-exec-10 299
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:10:59:57 +0800] "GET /search.html?keyword=ddd HTTP/1.1" 200 21288 http-bio-8085-exec-2 479
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:00:05 +0800] "GET /search.html?keyword=dd HTTP/1.1" 200 21284 http-bio-8085-exec-3 185
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:00:15 +0800] "GET /search.html?keyword=%E8%A1%A8 HTTP/1.1" 200 23400 http-bio-8085-exec-3 1083
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:01:57 +0800] "GET /search.html?keyword=ddd HTTP/1.1" 200 21288 http-bio-8085-exec-7 370
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:02:07 +0800] "GET /search.html?keyword=ddd HTTP/1.1" 200 21288 http-bio-8085-exec-7 101
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:02:23 +0800] "GET /search.html?keyword=ddd HTTP/1.1" 200 21288 http-bio-8085-exec-7 157
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:11:03:44 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BA HTTP/1.1" 200 76270 http-bio-8085-exec-1 3253

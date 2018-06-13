@@ -51,6 +51,9 @@ public class ItemServiceImpl implements ItemService {
     private Integer ITEM_CACHE_EXPIRE;
 
 
+    /**
+     * 根据ID查商品内容
+     */
     @Override
     public TbItem getItemById(Long itemId) {
         //逆向工程  通过主键查
